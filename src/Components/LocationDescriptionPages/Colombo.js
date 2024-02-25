@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../AboutUsPage/Navbar';
+// import Navbar from '../AboutUsPage/Navbar';
 import './colombo.css';
 
 const Colombo = () => {
