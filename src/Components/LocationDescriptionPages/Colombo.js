@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../AboutUsPage/Navbar';
+// import Navbar from '../AboutUsPage/Navbar';
 import './colombo.css';
 
 const Colombo = () => {
   return (
     <div className='colombopage'>
-        <Navbar></Navbar>
+        {/* <Navbar></Navbar> */}
         <section className="colombopagehero">
             <div className="colombopagetext-container">
                 {/* <div class="top-part"></div> */}

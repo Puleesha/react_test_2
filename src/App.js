@@ -7,14 +7,14 @@
 // import LocationPage from './Components/LocationPage/LocationPage.js';
 // import { RegistrationPage } from './Components/RegistrationPage/RegistrationPage.js';
 // import ErrorPage from './Components/ErrorPage/ErrorPage.js';
-// import Colombo from './Components/LocationDescriptionPages/Colombo.js';
+import Colombo from './Components/LocationDescriptionPages/Colombo.js';
 // import Galle from './Components/LocationDescriptionPages/Galle.js';
 // import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <h1>HI</h1>
+      <Colombo/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>My name is Puleesha.</p>
