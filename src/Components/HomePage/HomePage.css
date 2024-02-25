@@ -1,0 +1,276 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #176B87;
+    margin: 35px 30px 20px 30px;
+    border-radius: 20px;
+    padding-bottom: 200px;
+    padding-top: 28vh;
+    position: relative;
+    overflow: hidden;
+    min-height: 50vh;
+}
+
+.home-container-country{
+  align-items: center;
+  justify-content: center;
+  background-color: #176B87;
+  margin: 20px 30px 40px 30px;
+  border-radius: 20px;
+  padding-bottom: 200px;
+  padding-top: 28vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-container-about{
+  display: flex;
+  justify-content: center;
+  background-color: #176B87;
+  margin: 80px 30px 60px 30px;
+  border-radius: 20px;
+  padding-bottom: 280px;
+  padding-top: 50px;
+  min-height: 90vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.button-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-bg{
+  position: absolute;
+  border: none;
+  transform: scale(0.80);
+}
+
+.welcome-text h2{
+    position: relative;
+    color: #DAFFFB;
+    flex-direction: column;
+    font-size: 23px;
+}
+
+.main-welcome-heading h3{
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+    color: #DAFFFB;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Button class */
+
+.welcome-btn {
+    background:#176B87;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+    border: 2px solid #DAFFFB;
+    top: 20px;
+  }
+  
+  .welcome-btn .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.0em;
+    width: 2.0em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #176B87;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .welcome-btn:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .welcome-btn .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color:#176B87;
+  }
+  
+  .welcome-btn:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .welcome-btn:active .icon {
+    transform: scale(0.95);
+  }
+  
+.welcome-button-area{
+  display: flex;
+  justify-content: center;
+}
+
+/* Animated about us */
+.hidden{
+  opacity: 0;
+  transition: all 0.5s ;
+  filter: blur(5px);
+  transform: translateY(100%);
+}
+
+.show{
+  opacity: 1;
+  color: #DAFFFB;
+  filter: blur(0px);
+  transform: translateY(0);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*About us content */
+
+.about-content h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.about-content p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0px 60px 60px 60px;
+}
+
+/* The containers for the countries in the homepage */
+
+.home-container-country{
+  padding: 15px 9%;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+
+.home-container-country .country-box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.home-container-country .country-box-container .coutnry-box{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  border-radius: 20px;
+  background: #fff;
+  text-align: center;
+  padding: 20px 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+.home-container-country .country-box-container .coutnry-box h3{
+  color: #000000;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.home-container-country .country-box-container .coutnry-box p{
+  color: #000000;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.home-container-country .country-box-container .coutnry-box .country-btn{
+  margin-top: 10px;
+  display: inline-block;
+  background: #333;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+  z-index: 1;
+}
+
+.home-container-country .country-box-container .coutnry-box .country-btn:hover{
+  background-color: #1f1f1f;
+  transition: 0.2s ease-in;
+}
+
+.img{
+  position: absolute;
+  border: none;
+  overflow: hidden;
+  transform: scale(3);
+  opacity: 0.62;
+}
+
+.img:hover{
+  opacity: 12;
+  transition: 1s all;
+}
+
+.home-container-country h2{
+  color: #DAFFFB;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.home-footer{
+  background-color:#DAFFFB;
+  padding: 50px 0px 30px 20px;
+}
+
+.home-footer h3{
+  color: black;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.home-footer hr{
+  color: black;
+  border: 1px solid black;
+}
+
+.footer-bot{
+  display: flex;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.social-panel{
+  justify-content: space-between;
+  text-align: right;
+  margin-top: -48px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}

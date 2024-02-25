@@ -1,0 +1,24 @@
+[
+    {
+        "location":"Colombo",
+        "link":"http://localhost:8000/colombo",
+        "description":"Sri Lanka's capital, boasts a dynamic mix of history and modernity. Its vibrant streets, rich culture, and diverse cuisine make it a captivating destination for travelers."
+    },
+    {
+        "location":"Kandy",
+        "link":"http://localhost:8000/kandy",
+        "description":"Sri Lanka's capital, boasts a dynamic mix of history and modernity. Its vibrant streets, rich culture, and diverse cuisine make it a captivating destination for travelers."
+    },
+    {
+        "location":"Matara",
+        "link":"http://localhost:8000/matara"
+    },
+    {
+        "location":"Galle",
+        "link":"http://localhost:8000/galle"
+    },
+    {
+        "location":"Panadura",
+        "link":"http://localhost:8000/panadura"
+    }
+]
