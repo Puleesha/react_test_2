@@ -14,9 +14,9 @@ import Colombo from './Components/LocationDescriptionPages/Colombo.js';
 function App() {
   return (
     <div className="App">
-      {/* <Colombo/> */}
+      <Colombo/>
       {/* <HomePage/> */}
-      <AboutUs/>
+      {/* <AboutUs/> */}
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
