@@ -2,7 +2,7 @@
 // import './App.css';
 // import LoginPage from './Components/LoginPage/LoginPage.js';
 // import UserProfile from './Components/UserProfile/UserProfile.js';
-// import AboutUs from './Components/AboutUsPage/AboutUsPage.js'
+import AboutUs from './Components/AboutUsPage/AboutUsPage.js'
 import HomePage from './Components/HomePage/HomePage.js';
 // import LocationPage from './Components/LocationPage/LocationPage.js';
 // import { RegistrationPage } from './Components/RegistrationPage/RegistrationPage.js';
@@ -15,7 +15,8 @@ function App() {
   return (
     <div className="App">
       {/* <Colombo/> */}
-      <HomePage/>
+      {/* <HomePage/> */}
+      <AboutUs/>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
