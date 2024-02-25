@@ -2,7 +2,7 @@
 // import './App.css';
 // import LoginPage from './Components/LoginPage/LoginPage.js';
 // import UserProfile from './Components/UserProfile/UserProfile.js';
-import AboutUs from './Components/AboutUsPage/AboutUsPage.js'
+// import AboutUs from './Components/AboutUsPage/AboutUsPage.js'
 // import HomePage from './Components/HomePage/HomePage.js';
 // import LocationPage from './Components/LocationPage/LocationPage.js';
 // import { RegistrationPage } from './Components/RegistrationPage/RegistrationPage.js';
@@ -14,7 +14,7 @@ import Colombo from './Components/LocationDescriptionPages/Colombo.js';
 function App() {
   return (
     <div className="App">
-      <AboutUs/>
+      <Colombo/>
       {/* <HomePage/> */}
       {/* <AboutUs/> */}
 
