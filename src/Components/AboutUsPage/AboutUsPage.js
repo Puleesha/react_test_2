@@ -11,45 +11,46 @@ function App(){
   return(
     <div>
       <Navbar activeOption='aboutus'/>
-      <div id="subframe">
-        <h2 id="moveBottom"><center>THE CREATORS</center></h2><br></br><br></br>
-        <div className="imageSection">
-          <div className="developer-container">
+
+      <div>
+        <h2 ><center>THE CREATORS</center></h2><br></br><br></br>
+        <div >
+          <div >
             <img src={D1}></img>
             <Creator name="Chiran Gamage" email="abc" contact={123}/>
           </div>
-          <div className="developer-container">
+          <div >
             <img src={D1}></img>
             <Creator name="Thinal Karunarathna" email="abc" contact={123}/>
           </div>
-          <div className="developer-container">
+          <div >
             <img src={D1}></img>
             <Creator name="Neelesh Gamage" email="abc" contact={123}/>
           </div>
-          <div className="developer-container">
+          <div >
             <img src={D1}></img>
             <Creator name="Puleesha Vilhan" email="abc" contact={123}/>
           </div>
-          <div className="developer-container">
+          <div >
             <img src={D1}></img>
             <Creator name="Tharuka Bandara" email="abc" contact={123}/>
           </div>
         </div>
         <br></br><br></br>
         <h3><center>CONTACT US:</center></h3>
-        <h3><center> <a href="roamceylon.sdgp@gmail.com " style={{color:"white"}}>roamceylon.sdgp@gmail.com </a></center></h3>
-        <div className="bottomContainer">
-          <div className="middleBottom">
+        <h3><center> <a  style={{color:"white"}}>roamceylon.sdgp@gmail.com </a></center></h3>
+        <div >
+          <div>
             <h4><center>We are a group of 2nd Year students at Informatics Institute of Technology (IIT), following a bachelors degree in Software Engineering.</center></h4>
             <h4><center>This project was created as a part of the SDGP module in our 2nd Year. </center></h4>
             <h4>WELCOME TO ROAMCEYLON!</h4>
           </div>
-          <div className="leftBottom">
+          <div >
             <h6>Privacy Policy</h6>
             <h6>Terms & Conditions</h6>
           </div>
-          <div className="rightBottom">
-            <a href="https://www.facebook.com/"><img className="applogos" src={facbook_img}/></a> <a href="https://www.whatsapp.com/"><img className="applogos" src={whatsapp_img} /></a> <a href="https://www.instagram.com/"><img className="applogos" src={instagram_img}/></a>
+          <div >
+            {/* <a href="https://www.facebook.com/"><img className="applogos" src={facbook_img}/></a> <a href="https://www.whatsapp.com/"><img className="applogos" src={whatsapp_img} /></a> <a href="https://www.instagram.com/"><img className="applogos" src={instagram_img}/></a> */}
           </div>
         </div>
       </div>
