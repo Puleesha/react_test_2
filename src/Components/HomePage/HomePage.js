@@ -124,22 +124,22 @@ export default function HomePage (){
                 <div className='home-container-country' id='target-country'>
                     <h2>Popular Locations</h2>
                     <div className='country-box-container'>
-                        <Link to='/colombo'>
+                        {/* <Link to='/colombo'> */}
                             <div className='coutnry-box'>
                                 <h3>Colombo</h3>
                                 <h3><FetchWeather city="colombo"/></h3>
                                 <img className='img' src={colomboImage}></img>
                                 <p>Colombo, Sri Lanka's capital, boasts a dynamic mix of history and modernity. Its vibrant streets, rich culture, and diverse cuisine make it a captivating destination for travelers.</p>
-                                <a href='#1'className='country-btn'>Learn More</a>
+                                {/* <a href='#1'className='country-btn'>Learn More</a> */}
                             </div>
-                        </Link>
+                        {/* </Link> */}
 
                         <div className='coutnry-box'>
                             <h3>Kandy</h3>
                             <h3><FetchWeather city="kandy"/></h3>
                             <img class='img' src={kandyImage}></img>
                             <p>Colombo, Sri Lanka's capital, boasts a dynamic mix of history and modernity. Its vibrant streets, rich culture, and diverse cuisine make it a captivating destination for travelers.</p>
-                            <a href='#1'className='country-btn'>Learn More</a>
+                            {/* <a href='#1'className='country-btn'>Learn More</a> */}
                         </div>
 
                         <div className='coutnry-box'>
@@ -147,7 +147,7 @@ export default function HomePage (){
                             <h3><FetchWeather city="jaffna"/></h3>
                             <img class='img' src={mataraImage}></img>
                             <p>Colombo, Sri Lanka's capital, boasts a dynamic mix of history and modernity. Its vibrant streets, rich culture, and diverse cuisine make it a captivating destination for travelers.</p>
-                            <a href='#1'className='country-btn'>Learn More</a>
+                            {/* <a href='#1'className='country-btn'>Learn More</a> */}
                         </div>
 
                         <div className='coutnry-box'>
@@ -155,7 +155,7 @@ export default function HomePage (){
                             <h3><FetchWeather city="galle"/></h3>
                             <img class='img' src={galleImage}></img>
                             <p>Colombo, Sri Lanka's capital, boasts a dynamic mix of history and modernity. Its vibrant streets, rich culture, and diverse cuisine make it a captivating destination for travelers.</p>
-                            <a href='#1'className='country-btn'>Learn More</a>
+                            {/* <a href='#1'className='country-btn'>Learn More</a> */}
                         </div>
                     </div>
                 </div>

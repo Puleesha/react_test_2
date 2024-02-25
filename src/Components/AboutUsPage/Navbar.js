@@ -20,6 +20,8 @@ const Navbar = ({activeOption}) =>{
 
         <div>
             <ul id="navbar" className={menuOpen ? "open" : ""}>
+
+           
                 <li><a href="/" className={activeOption == 'home' ? 'active' : ''}>HOME</a></li>
                 <li><a href="/location" className={activeOption == 'locations' ? 'active' : ''}>LOCATIONS</a></li>
                 <li><a href="/about" className={activeOption == 'aboutus' ? 'active' : ''}>ABOUT US</a></li>
