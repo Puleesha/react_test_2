@@ -1,6 +1,6 @@
 import React from "react";
-import './AboutUs.css';
-import Navbar from "./Navbar";
+// import './AboutUs.css';
+// import Navbar from "./Navbar";
 import D1 from "./Developer1.png"
 import facbook_img from "./facebook_5968764.png"
 import instagram_img from "./instagram_2111463.png"
@@ -10,7 +10,7 @@ import whatsapp_img from "./whatsapp_5968841.png"
 function App(){
   return(
     <div>
-      <Navbar activeOption='aboutus'/>
+      {/* <Navbar activeOption='aboutus'/> */}
 
       <div>
         <h2 ><center>THE CREATORS</center></h2><br></br><br></br>
