@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "../AboutUsPage/Navbar";
+// import Navbar from "../AboutUsPage/Navbar";
 import "./LocationPage.css";
 import {useState, useEffect} from 'react';
 import Locations from '../LocationPage/Locations.json';
@@ -40,7 +40,7 @@ export default function LocationPage(){
 
     return(
         <div>
-            <Navbar activeOption="locations"/>
+            {/* <Navbar activeOption="locations"/> */}
             <div className="mainContainer">
                 <div className="location-container">
                     <div className="leftContainer">
