@@ -11,7 +11,7 @@ import { RegistrationPage } from './Components/RegistrationPage/RegistrationPage
 import ErrorPage from './Components/ErrorPage/ErrorPage.js';
 import Colombo from './Components/LocationDescriptionPages/Colombo.js';
 import Galle from './Components/LocationDescriptionPages/Galle.js';
-import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
