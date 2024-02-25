@@ -1,5 +1,5 @@
 import React from "react";
-import './AboutUs.css';
+// import './AboutUs.css';
 // import Navbar from "./Navbar";
 import D1 from "./Developer1.png"
 import facbook_img from "./facebook_5968764.png"
