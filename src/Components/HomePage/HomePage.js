@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-// import Navbar from "../AboutUsPage/Navbar";
+import Navbar from "../AboutUsPage/Navbar";
 import sdgpVideo from '../HomePage/Assets/sdgpVideo.mp4';
 import { useEffect} from 'react';
 import colomboImage from '../HomePage/Assets/colombo.jpg';
@@ -60,7 +60,7 @@ export default function HomePage (){
     return(
         <>
             <div>
-                {/* <Navbar activeOption='home'/> */}
+                <Navbar activeOption='home'/>
                 <div className='home-container'>
                     <video className='video-bg' autoPlay muted loop playsInline>
                         <source src={sdgpVideo} type='video/mp4'/>
